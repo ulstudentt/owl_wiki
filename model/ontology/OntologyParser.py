@@ -12,7 +12,7 @@ class OntologyParser:
     def __parse_properties_list(classes_to_properties, properties):
         for property in properties:
             classAndPropertyNames = str(property).split('.')
-            className = classAndPropertyNames[0]
+            className = classAndPropertyNames[0].lower()
             propertyName = classAndPropertyNames[1]
             if classes_to_properties.get(className) is None:
                 classes_to_properties[className] = []
