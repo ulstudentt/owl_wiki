@@ -4,17 +4,16 @@ from model.wiki.create.PagesCreator import PagesCreator
 class CategoryCreator:
     def __init__(self, wiki_site, properties, onto):
         self.__site = wiki_site
-        self.__pages_creator = PagesCreator(self.__site, properties, onto)
+        self.__pages_creator = PagesCreator(self.__site, properties, onto, 1)
 
     def create_categories(self, owl_classes):
         for owl_class in owl_classes:
-            if owl_class.name == 'ITJob': #TODO убрать
-                self.__create_category(owl_class.name)
+            self.__create_category(owl_class.name)
 
-                if not self.__is_root_category(owl_class):
-                    self.__add_class_in_parent_categories(owl_class)
+            if not self.__is_root_category(owl_class):
+                self.__add_class_in_parent_categories(owl_class)
 
-                self.__pages_creator.create_pages(owl_class.instances())
+            self.__pages_creator.create_pages(owl_class.instances())
 
     def __create_category(self, category_name):
         category = self.__site.pages["Category:" + category_name]

@@ -1,18 +1,20 @@
-from mwtemplates import TemplateEditor
 import re
+
+from mwtemplates import TemplateEditor
 
 
 class PagesCreator:
     infobox_text = "Infobox"
     infobox_template_text = "{{Infobox }}"
 
-    def __init__(self, wiki_site, properties, onto):
+    def __init__(self, wiki_site, properties, onto, max_count):
         self.__site = wiki_site
         self.properties = properties
         self.__onto = onto
+        self.max_instances_count = max_count
 
     def create_pages(self, instances):
-        for instance in instances:
+        for instance in list(instances)[:self.max_instances_count]:
             self.__create_page(instance)
 
     def __create_page(self, instance):
@@ -40,9 +42,8 @@ class PagesCreator:
                     properties.append(property)
 
         template_editor = TemplateEditor(text)
-        templatesFromText = template_editor
-        if self.infobox_text in templatesFromText.templates:
-            infobox = templatesFromText[self.infobox_text][0]
+        if self.infobox_text in template_editor.templates:
+            infobox = template_editor.templates[self.infobox_text][0]
         else:
             template_editor = TemplateEditor(self.infobox_template_text)
             infobox = template_editor.templates[self.infobox_text][0]

@@ -36,7 +36,7 @@ class OntologyCreator:
         return new_class
 
     def __put_class(self, created_class):
-        self.created_classes_name_to_owl_classes[created_class.name] = created_class  # CHECK
+        self.created_classes_name_to_owl_classes[created_class.name] = created_class
 
     def __get_classes(self, classes_names, wiki_categories_pages_and_parents):
         classes = []

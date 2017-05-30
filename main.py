@@ -11,6 +11,7 @@ from model.wiki.parse.WikiParser import WikiParser
 
 create = False
 
+
 def create_ontology(path):
     try:
         onto = get_ontology(path)
@@ -29,8 +30,8 @@ if create:
     wikiCreator.create_wiki_pages(onto)
     sys.exit("Successful")
 else:
-    path = "http://files.ifi.uzh.ch/ddis/oldweb/ddis/fileadmin/ont/nli/job.owl"
-    onto = create_ontology(path)
+    onto = create_ontology("http://localhost/root-ontology.owl")
     wikiParser = WikiParser()
-    ontologyCreator = OntologyCreator(onto,"My")
+    ontologyCreator = OntologyCreator(onto, "My")
     ontologyCreator.create_owl_classes(wikiParser.get_category_pages())
+    sys.exit("Successful")
