@@ -28,10 +28,10 @@ class PagesCreator:
             if parent_category_text not in page.text():
                 text += parent_category_text
 
-        text = self.__set_infoblock_to_page(page.text(), instance)
+        text = self.__get_text_with_infoblock(page.text(), instance)
         page.save(text)
 
-    def __set_infoblock_to_page(self, text, instance):
+    def __get_text_with_infoblock(self, text, instance):
         all_classes_for_properties = self.__get_all_parents_names(instance)
         properties = []
         for class_name in all_classes_for_properties:
@@ -49,15 +49,28 @@ class PagesCreator:
 
         property_order = 0
         for property in properties:
-            property_value = getattr(instance, property)
-            if property_value:
+            property_values = getattr(instance, property)
+
+            try:
+                property_values._Prop._range[0]._name
+                property_with_class_value = True
+            except AttributeError:
+                property_with_class_value = False
+
+            for property_value in property_values:
                 property_order += 1
+
+                if property_with_class_value:
+                    property_value = property_value.name
+
                 infobox.parameters['label{0}'.format(property_order)] = property
-                infobox.parameters['data{0}'.format(property_order)] = str(property_value[0])
+                infobox.parameters['data{0}'.format(property_order)] = \
+                    '[[{0}]]'.format(str(property_value)) if property_with_class_value else str(property_value)
 
         search_res = re.search('{{(' + self.infobox_text + ')(.*?)}}', text)
         if search_res is not None:
-            text = re.sub(text[search_res.pos:search_res.endpos], '', text)
+            tuple_res = search_res.regs[0]
+            text = re.sub(text[tuple_res[0]:tuple_res[1]], ' ', text)
         return template_editor.wikitext() + text
 
     def __get_all_parents_names(self, instance):

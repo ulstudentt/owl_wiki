@@ -1,8 +1,5 @@
-from mwtemplates import TemplateEditor
-
 from model.wiki.WikiConnector import WikiConnector
 from model.wiki.create.CategoryCreator import CategoryCreator
-from model.wiki.create.PagesCreator import PagesCreator
 
 
 class WikiCreator:

@@ -1,8 +1,8 @@
-import mwclient;
+import mwclient
 
 
 class WikiConnector:
-    site = "localhost";
+    site = "localhost"
     username = "Murakami"
     password = "190180RT"
 

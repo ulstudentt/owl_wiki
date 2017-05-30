@@ -8,7 +8,7 @@ class CategoryCreator:
 
     def create_categories(self, owl_classes):
         for owl_class in owl_classes:
-            if owl_class.name == 'ITJob':
+            if owl_class.name == 'ITJob': #TODO убрать
                 self.__create_category(owl_class.name)
 
                 if not self.__is_root_category(owl_class):
