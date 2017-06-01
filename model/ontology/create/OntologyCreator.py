@@ -1,19 +1,23 @@
-import types
+from owlready2 import Thing, ObjectProperty
 
-from owlready2 import Thing
+from model.ontology.create.OntologyInstancesCreator import OntologyInstancesCreator
 
 
 class OntologyCreator:
     def __init__(self, onto, classes_prefix=""):
-        self.onto = onto
-        self.created_classes_name_to_owl_classes = {}
-        self.classes_prefix = classes_prefix
+        self.__onto = onto
+        self.__created_classes_name_to_owl_classes = {}
+        self.__classes_prefix = classes_prefix
+        self.__instances_creator = OntologyInstancesCreator(self.__onto, self.__classes_prefix)
+
+    def create_owl_instances(self, wiki_pages):
+        self.__instances_creator.create_owl_instances(self.__created_classes_name_to_owl_classes, wiki_pages)
 
     def create_owl_classes(self, wiki_categories_pages_and_parents):
         for category_name, category_page_and_parents in wiki_categories_pages_and_parents.items():
             parents_classes_names = category_page_and_parents[1]
 
-            if category_name in self.created_classes_name_to_owl_classes:
+            if category_name in self.__created_classes_name_to_owl_classes:
                 continue
 
             parents_classes = self.__get_classes(parents_classes_names, wiki_categories_pages_and_parents)
@@ -23,20 +27,18 @@ class OntologyCreator:
             else:
                 self.__create_owl_class(category_name, parents_classes)
 
-        self.onto.save("myowl.owl", format="rdfxml")
-
     def __create_root_owl_class(self, class_name):
-        new_class = type(self.classes_prefix + class_name, (Thing,), {'namespace': self.onto})
+        new_class = type(self.__classes_prefix + class_name, (Thing,), {'namespace': self.__onto})
         self.__put_class(new_class)
         return new_class
 
     def __create_owl_class(self, class_name, parent_classes):
-        new_class = type(self.classes_prefix + class_name, tuple(parent_classes), {'namespace': self.onto})
+        new_class = type(self.__classes_prefix + class_name, tuple(parent_classes), {'namespace': self.__onto})
         self.__put_class(new_class)
         return new_class
 
     def __put_class(self, created_class):
-        self.created_classes_name_to_owl_classes[created_class.name] = created_class
+        self.__created_classes_name_to_owl_classes[created_class.name] = created_class
 
     def __get_classes(self, classes_names, wiki_categories_pages_and_parents):
         classes = []
@@ -46,7 +48,7 @@ class OntologyCreator:
 
     def __create_and_get_owl_class(self, class_name, wiki_categories_pages_and_parents):
         try:
-            owl_class = self.created_classes_name_to_owl_classes[class_name]
+            owl_class = self.__created_classes_name_to_owl_classes[class_name]
         except KeyError:
             owl_class = None
 
@@ -66,7 +68,7 @@ class OntologyCreator:
         parent_owl_classes_to_create = []
         for parent_class in parent_classes:
             try:
-                owl_class = self.created_classes_name_to_owl_classes[parent_class]
+                owl_class = self.__created_classes_name_to_owl_classes[parent_class]
             except KeyError:
                 owl_class = None
 

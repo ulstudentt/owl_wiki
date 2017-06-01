@@ -1,37 +1,1947 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
+   xmlns:ns1="http://localhost/root-ontology.owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MyArea">
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sc213cbree6144 corp.supernews.com">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-04</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7.0</ns1:desiredExperience>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.0</ns1:requiredExperience>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38eaba93.7510309 newsb.ev1.net">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:singleYearSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70000.0</ns1:singleYearSalary>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-05</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8aanrn si6 1460 news.gate.net">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-10</ns1:postingDate>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:forCompany rdf:resource="http://localhost/root-ontology.owl#forCompany"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marketing Support representative</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Systems">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A893itd r2n 247 ffx2nh5.news.uu.net">
+    <ns1:desiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS \\ BS</ns1:desiredDegree>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS</ns1:requiredDegree>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-24</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Programmer/Analyst</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8Zsz4.7124 OV.997101 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-14</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developer</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#ZixSolaris">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A00031612432821 204.94.70.78">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-16</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Internet Developers</ns1:title>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:inArea rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[client_Server]]</ns1:inArea>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sciof1gdbi786 corp.supernews.com">
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:resource="http://localhost/root-ontology.owl#title"/>
+    <ns1:requiredDegree rdf:resource="http://localhost/root-ontology.owl#requiredDegree"/>
+    <ns1:postingDate rdf:resource="http://localhost/root-ontology.owl#postingDate"/>
+    <ns1:singleYearSalary rdf:resource="http://localhost/root-ontology.owl#singleYearSalary"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:desiredDegree rdf:resource="http://localhost/root-ontology.owl#desiredDegree"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8bfl6g 1nla 1815 news.gate.net">
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-24</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Web Designers</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#BAIG4.7931 Q3.442446 typhoon.austin.rr.com">
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developer</ns1:title>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-05</ns1:postingDate>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0</ns1:requiredExperience>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#DataCenter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#SqlL">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Rdb">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A893qbh igg journal.concentric.net">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-24</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#SoftwareEngineer">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#TbqE4.29 Q3.1388 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-29</ns1:postingDate>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#UpqE4.103 Q3.2136 typhoon.austin.rr.com">
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-29</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A2fqE4.46 Q3.1479 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-29</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#FxNB4.9741 OV.1442384 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B.S</ns1:requiredDegree>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-21</ns1:postingDate>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.0</ns1:requiredExperience>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sc214ndlee617 corp.supernews.com">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-04</ns1:postingDate>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.0</ns1:requiredExperience>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:inArea rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[client_Server]]</ns1:inArea>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#usesPlatform">
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8bfknb 1nla 1035 news.gate.net">
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-24</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Ey5E4.16848 w81.1528740 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-28</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#VMHs4.58660 vi4.126678 dfw-read.news.verio.net">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-22</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Web Software Developer</ns1:title>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.0</ns1:requiredExperience>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#UTmI4.181 pE4.37006 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-10</ns1:postingDate>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Email">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8935ui uoi 710 news.gate.net">
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.0</ns1:desiredExperience>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-24</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Erp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Pro">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38f73c1d 0 20423 wodc7nh0.news.uu.net">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-14</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A3jFs4.5328 WH1.101655 news.swbell.net">
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unix System Administrator</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-22</ns1:postingDate>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</ns1:requiredExperience>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Peopletools">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Rpg">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Psos Ip">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38e0c6ef 0 20161 wodc7nh6.news.uu.net">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senior Oracle Dba</ns1:title>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.0</ns1:desiredExperience>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-28</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Wwxt4.2241 OV.343975 typhoon.austin.rr.com">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-25</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSEE</ns1:requiredDegree>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.0</ns1:requiredExperience>
   </rdf:Description>
   <rdf:Description rdf:about="http://localhost/root-ontology.owl#MyApplication">
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MyLanguage">
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38dc095e 0 26748 wodc7nh6.news.uu.net">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-25</ns1:postingDate>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
   </rdf:Description>
-  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MyJob">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#M">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Zetz4.7828 w81.683447 typhoon.austin.rr.com">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-14</ns1:postingDate>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.0</ns1:requiredExperience>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developer</ns1:title>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#BV3D4.12289 OV.1735008 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</ns1:requiredExperience>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-25</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rational Sqa Robot</ns1:title>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Object">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#P0LD4.13011 OV.1907824 typhoon.austin.rr.com">
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-27</ns1:postingDate>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38b80666.856114337 news.jump.net">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-25</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
   </rdf:Description>
   <rdf:Description rdf:about="http://localhost/root-ontology.owl#MyCompany">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MyITJob">
-    <rdfs:subClassOf rdf:resource="http://localhost/root-ontology.owl#MyJob"/>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8avqk7 2gs6 1096 news.gate.net">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-18</ns1:postingDate>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Games">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8cn470 25mi 2654 news.gate.net">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-08</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#CrqB4.9090 OV.1369874 typhoon.austin.rr.com">
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-20</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#GuiWindows">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38DFF7B3.E940950 victina.com">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-28</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test Manager</ns1:title>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:forCompany rdf:resource="http://localhost/root-ontology.owl#forCompany"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#inArea">
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A898ff1 1bn6 2065 news.gate.net">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS</ns1:requiredDegree>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-26</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#SI1J4.287 vb6.124089 typhoon.austin.rr.com">
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.0</ns1:requiredExperience>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS</ns1:requiredDegree>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-12</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#fromRecruiter">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#TechnologyResources">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#M5vG4.405 dG3.1917905955 news.onr.com">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-04</ns1:postingDate>
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.0</ns1:desiredExperience>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Control">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sun">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38f61cf3 0 20916 wodc7nh6.news.uu.net">
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-13</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Mvs">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8cf6un dgs 2646 news.gate.net">
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.0</ns1:desiredExperience>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-05</ns1:postingDate>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS</ns1:requiredDegree>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38d3f07a 0 4933 wodc7nh1.news.uu.net">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-18</ns1:postingDate>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.0</ns1:desiredExperience>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#postingDate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#C HI4.74 vb6.61223 typhoon.austin.rr.com">
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-11</ns1:postingDate>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developer</ns1:title>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Time">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8bsq1e 11fg 419 news.gate.net">
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-29</ns1:postingDate>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:forCompany rdf:resource="http://localhost/root-ontology.owl#forCompany"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#WindowsNt">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sparc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Shockwave">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#TVQz4.9285 w81.743617 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-15</ns1:postingDate>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Ljbv4.3372 w81.333118 typhoon.austin.rr.com">
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:inArea rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[tcp_Ip]]</ns1:inArea>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-01</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MsAccess">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#CustomerService">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#SqlWindows">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#GraphicDesign">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MyLanguage">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#JavaWindows">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Peoplesoft">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#StarBasic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8bq5n3 que 676 news.gate.net">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Programmer</ns1:title>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:forCompany rdf:resource="http://localhost/root-ontology.owl#forCompany"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-28</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Gui">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sm7C4.12748 w81.1129062 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0</ns1:requiredExperience>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.0</ns1:desiredExperience>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-22</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Adsl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38da2514 0 11148 wodc7nh1.news.uu.net">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-23</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38ee623e 0 17341 wodc7nh6.news.uu.net">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS</ns1:requiredDegree>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.0</ns1:requiredExperience>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:postingDate rdf:resource="http://localhost/root-ontology.owl#postingDate"/>
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.0</ns1:desiredExperience>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Ibm">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8bsq3c 11fg 530 news.gate.net">
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lead Software Engineer</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:forCompany rdf:resource="http://localhost/root-ontology.owl#forCompany"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS</ns1:requiredDegree>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-29</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#EtrTechnologyCenter">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#singleYearSalary">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A89iv59 25fk 69 news.gate.net">
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:forCompany rdf:resource="http://localhost/root-ontology.owl#forCompany"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-01</ns1:postingDate>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</ns1:requiredExperience>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38E67BB8.30A838D9 fundsxpress.com">
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unix System Administrator</ns1:title>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-01</ns1:postingDate>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</ns1:requiredExperience>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Seskjgb2cqv77 corp.supernews.com">
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <ns1:singleYearSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70000.0</ns1:singleYearSalary>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS</ns1:requiredDegree>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-07</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oracle Developer</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A00032916224520 204.94.70.78">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-29</ns1:postingDate>
+    <ns1:inArea rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[client_Server]]</ns1:inArea>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Internet Developers</ns1:title>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MyJob">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#3dSimulations">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38DFF8CA.67F0E9B8 victina.com">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:forCompany rdf:resource="http://localhost/root-ontology.owl#forCompany"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-28</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Programmer/Analyst</ns1:title>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#forCompany">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8ahreh g29 1 slb6.atl.mindspring.net">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:requiredExperience rdf:resource="http://localhost/root-ontology.owl#requiredExperience"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:isInCity rdf:resource="http://localhost/root-ontology.owl#isInCity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:resource="http://localhost/root-ontology.owl#title"/>
+    <ns1:postingDate rdf:resource="http://localhost/root-ontology.owl#postingDate"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#E8XB4.9995 OV.1478654 typhoon.austin.rr.com">
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</ns1:requiredExperience>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developer</ns1:title>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:maximumYearSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60.0</ns1:maximumYearSalary>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-22</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:minimumYearSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100.0</ns1:minimumYearSalary>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A5xNC4.14344 w81.1254151 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-24</ns1:postingDate>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</ns1:requiredExperience>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Windows3.X">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Windows">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Basic">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#DataWarehousing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Network">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Db2Connect">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#DotNT">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Delphi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Realtime">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Victina">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#DriveDataCenter">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38ede1d8 0 17341 wodc7nh6.news.uu.net">
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[cleveland]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-07</ns1:postingDate>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[houston]]</ns1:isInCity>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A898ffs 1bn6 2123 news.gate.net">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.0</ns1:requiredExperience>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-26</ns1:postingDate>
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.0</ns1:desiredExperience>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Y1hC4.11911 624.1132034 news.flash.net">
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-23</ns1:postingDate>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A88uc6u 7mn 345 ffx2nh5.news.uu.net">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Account Manager</ns1:title>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0</ns1:requiredExperience>
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.0</ns1:desiredExperience>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-22</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#ObjectTechnology">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38e52e13 0 10134 wodc7nh0.news.uu.net">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-31</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Engineer</ns1:title>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSEE</ns1:requiredDegree>
+    <ns1:desiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSCS</ns1:desiredDegree>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Client Server">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Javascript">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#RealTimeSignal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Expect">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#3dGraphics">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Aix">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#DirectRecruiting">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#AO5E4.38539 AT6.46146 dfw-read.news.verio.net">
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-28</ns1:postingDate>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Graphics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#isInCity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#HpA">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MqE4.88 Q3.1947 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-29</ns1:postingDate>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#ServerAr">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Cobol">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#OusJ4.3983 616.268438 typhoon.austin.rr.com">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-13</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administrators</ns1:title>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.0</ns1:requiredExperience>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Ndis">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#XRXz4.111 An4.927172639 news.onr.com">
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.0</ns1:requiredExperience>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-16</ns1:postingDate>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS</ns1:requiredDegree>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Solaris">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8c3fin 1th 22 news.warwick.net">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-01</ns1:postingDate>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</ns1:requiredExperience>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sea27k89980 corp.supernews.com">
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS</ns1:requiredDegree>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:singleYearSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60000.0</ns1:singleYearSalary>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-31</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#YlqB4.9080 OV.1369332 typhoon.austin.rr.com">
+    <ns1:postingDate rdf:resource="http://localhost/root-ontology.owl#postingDate"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:resource="http://localhost/root-ontology.owl#isInCity"/>
+    <ns1:title rdf:resource="http://localhost/root-ontology.owl#title"/>
+    <ns1:requiredDegree rdf:resource="http://localhost/root-ontology.owl#requiredDegree"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:desiredDegree rdf:resource="http://localhost/root-ontology.owl#desiredDegree"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:desiredExperience rdf:resource="http://localhost/root-ontology.owl#desiredExperience"/>
+    <ns1:inArea rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[client_Server]]</ns1:inArea>
+    <ns1:requiredExperience rdf:resource="http://localhost/root-ontology.owl#requiredExperience"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sc214lsjee6143 corp.supernews.com">
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Program Manager</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-04</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Essbase">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#J5XB4.9992 OV.1478059 typhoon.austin.rr.com">
+    <ns1:singleYearSalary rdf:datatype="http://www.w3.org/2001/XMLSchema#string">150000.0</ns1:singleYearSalary>
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.0</ns1:desiredExperience>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-22</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sesk5bblcqv161 corp.supernews.com">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-07</ns1:postingDate>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A3FNC4.14368 w81.1254622 typhoon.austin.rr.com">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-24</ns1:postingDate>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senior Software Engineer</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#usesLanguage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#title">
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#SeniorChipDesignEngineer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#EmbeddedFirmware">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MsFrontpage">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#NotesDominoLotus">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#UGxt4.2249 OV.343969 typhoon.austin.rr.com">
+    <ns1:requiredExperience rdf:resource="http://localhost/root-ontology.owl#requiredExperience"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.0</ns1:desiredExperience>
+    <ns1:postingDate rdf:resource="http://localhost/root-ontology.owl#postingDate"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A00022405563512 204.94.70.78">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-24</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Qa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8a656b k02 1 slb0.atl.mindspring.net">
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-08</ns1:postingDate>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.0</ns1:requiredExperience>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS</ns1:requiredDegree>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developer</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sc213u2ree695 corp.supernews.com">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-04</ns1:postingDate>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.0</ns1:requiredExperience>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Test Engineer</ns1:title>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A407D2F7A68E79629.CB88EEB729C22D52.8B26AD236ABBCF81 lp.airnews.net">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-05</ns1:postingDate>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A894bqo f4m 7 nntp9.atl.mindspring.net">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-24</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developer</ns1:title>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Dba">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#VisualBasic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38B1F782.799B1D86 m2k.com">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-22</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#SqlServer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#usesApplication">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sea2un4u9175 corp.supernews.com">
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-31</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS</ns1:requiredDegree>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0</ns1:requiredExperience>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38e0e83c 0 20161 wodc7nh6.news.uu.net">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:fromRecruiter rdf:resource="http://localhost/root-ontology.owl#fromRecruiter"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-28</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38F3AD58.2AD6CC38 victina.com">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-11</ns1:postingDate>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bachelor</ns1:requiredDegree>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Programmer/Analyst</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <ns1:forCompany rdf:resource="http://localhost/root-ontology.owl#forCompany"/>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Dos">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Shell">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Nfs">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#TexasStaffing">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Kx1J4.268 vb6.124247 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-12</ns1:postingDate>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSEE</ns1:requiredDegree>
+    <ns1:desiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.0</ns1:desiredExperience>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Forms">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Atm Ip">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#EmbeddedFrimware">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A00041213064021 204.94.70.78">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-12</ns1:postingDate>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Powerbuilder">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#maximumYearSalary">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#VbscriptA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Validation">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MyЗаглавная страница">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Analog">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Telecommunications">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Hp Ux">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A89cqf9 ei9 1 slb1.atl.mindspring.net">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.0</ns1:requiredExperience>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-27</ns1:postingDate>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38C44BF9.4D6565EC victina.com">
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:forCompany rdf:resource="http://localhost/root-ontology.owl#forCompany"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-07</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developer</ns1:title>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#requiredExperience">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sf3rupcmcqv173 corp.supernews.com">
+    <ns1:usesApplication rdf:resource="http://localhost/root-ontology.owl#usesApplication"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-04-10</ns1:postingDate>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accuate Report Writer</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#NerveCenter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#desiredDegree">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#EmbeddedProcessor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#SqlA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Informix">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sybase">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Foxpro">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#SolidSolaris">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Vxworks">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Activex">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Assembly">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Oo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Ctg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#DirectMarketing">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#EmbeddedSoftware">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#3dSims">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38BC60E9.172A4394 victina.com">
+    <ns1:forCompany rdf:resource="http://localhost/root-ontology.owl#forCompany"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-01</ns1:postingDate>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project Manager</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#SoftwareQa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#ZBXROE5dhfoBPNSYxXCeBxnV2FgG 4ax.com">
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:resource="http://localhost/root-ontology.owl#postingDate"/>
+    <ns1:singleYearSalary rdf:resource="http://localhost/root-ontology.owl#singleYearSalary"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:requiredExperience rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.0</ns1:requiredExperience>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BS</ns1:requiredDegree>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:desiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS</ns1:desiredDegree>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#HpOpenview">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#NJRu4.3005 w81.300225 typhoon.austin.rr.com">
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <ns1:inArea rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[client_Server]]</ns1:inArea>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-29</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#3dSkills">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#SoftwareDevelopmentDepartment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#CPlusPlus">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Ses">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#DallasDataCenter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Db2 Pe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#desiredExperience">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Vb">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Ideal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Tivoli">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#EAbx4.5039 w81.476121 typhoon.austin.rr.com">
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-07</ns1:postingDate>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Windows95P">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Jcl">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38C91203.AA5D414F io.com">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-10</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Opengl">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Perl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Rdbms">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A00022805264751 execon.com">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-02-28</ns1:postingDate>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Mac">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Vsam">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Unix">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#EmbeddedCode">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MyArea">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#ObjectOriented">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Mpeg2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Abap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Dns">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#ServerWindows">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38DB9D35.8C5BC8AA mail.jump.net">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-24</ns1:postingDate>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Xrunner">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#StarStarBasic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Rs6000">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#HpP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Novell">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#requiredDegree">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:range rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#GWzs4.1014 OV.213099 typhoon.austin.rr.com">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:title rdf:resource="http://localhost/root-ontology.owl#title"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:requiredDegree rdf:resource="http://localhost/root-ontology.owl#requiredDegree"/>
+    <ns1:postingDate rdf:resource="http://localhost/root-ontology.owl#postingDate"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Cics">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#VisualCPlusPlus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#GifAnimation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#ClientDevelopment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MsWindows">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Access">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#C Plus">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Win32">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Tcl Tk">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A38c03161.1495804113 newsb.ev1.net">
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portable Development Engineers</ns1:title>
+    <ns1:requiredDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BSEE</ns1:requiredDegree>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesPlatform rdf:resource="http://localhost/root-ontology.owl#usesPlatform"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-03</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Www">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#BD187BEBD2AEAEC5.A267E229D4C3532F.AC0D8609D392B467 lp.airnews.net">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sr. Software Engineer</ns1:title>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-28</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#AndIp">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Progress">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Java">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#VcPlusPlus">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#RealTimeOperating">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#FailureAnalysis">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Tcp Ip">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Animation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#VmWindows">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://localhost/root-ontology.owl#MyPlatform">
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Ip">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Wan">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#EmbeddedProduct">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#UpCE4.749 Q3.37089 typhoon.austin.rr.com">
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">developer</ns1:title>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <ns1:inArea rdf:resource="http://localhost/root-ontology.owl#inArea"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-30</ns1:postingDate>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#EmbeddedFirmwareDevelopment">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Playstation">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#LotusNotes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#minimumYearSalary">
+    <rdfs:domain rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Ole">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Windows95C">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Oriented">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Db2Pm">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Mfc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Html">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#3dEngines">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Excel">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#AME4.2117 vT1.61731 typhoon.austin.rr.com">
+    <ns1:isInCity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[[austin]]</ns1:isInCity>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:usesLanguage rdf:resource="http://localhost/root-ontology.owl#usesLanguage"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-30</ns1:postingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#MyITJob">
+    <rdfs:subClassOf rdf:resource="http://localhost/root-ontology.owl#MyJob"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Oracle">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sql Plus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Digital">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#EmbeddedMicroprocessorDesign">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#EmbeddedSystem">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Alliance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Db2 Udb">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#SocketLevel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Web">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Ethernet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#DeviceDriver">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Vms">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sgi">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Vax">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Hacmp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#VbscriptL">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#3dGames">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Pc">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#ServerAp">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A6502">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Internet">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Photoshop">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#VpnNt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#A8ahvak 6uf netnews.hinet.net">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyITJob"/>
+    <ns1:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n/a</ns1:title>
+    <ns1:postingDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2000-03-13</ns1:postingDate>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://webprotege.stanford.edu/project/D0NAKFko72LcypPTot8P8z">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#DirectMail">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Winrunner">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#NetworkOperationsCenter">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Odbc">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Windows95A">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#DirectSolaris">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#C">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#StarVisualBasic">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyLanguage"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#StartupStaffing">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Embedded">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Lcs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyCompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Db2">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#RealEstateExperience">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Com">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#EmbeddedProductDesign">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Cgi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Database">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Lan">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Real">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#SunSolaris">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#AustinDataCenter">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sunos">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyPlatform"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#DatabaseAdministration">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#3dPrograms">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Sap">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Networking">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#NotesDominoServer">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyApplication"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#DataAnalysis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/root-ontology.owl#Isapi">
+    <rdf:type rdf:resource="http://localhost/root-ontology.owl#MyArea"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   </rdf:Description>
 </rdf:RDF>

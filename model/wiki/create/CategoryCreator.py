@@ -2,9 +2,9 @@ from model.wiki.create.PagesCreator import PagesCreator
 
 
 class CategoryCreator:
-    def __init__(self, wiki_site, properties, onto):
+    def __init__(self, wiki_site, properties, onto,max_category_page):
         self.__site = wiki_site
-        self.__pages_creator = PagesCreator(self.__site, properties, onto, 1)
+        self.__pages_creator = PagesCreator(self.__site, properties, onto, max_category_page)
 
     def create_categories(self, owl_classes):
         for owl_class in owl_classes:

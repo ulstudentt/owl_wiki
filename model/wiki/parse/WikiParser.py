@@ -24,4 +24,5 @@ class WikiParser:
                 category_pages_and_parents[category_page.page_title][1].append(occurrence[1])
         return category_pages_and_parents
 
-
+    def get_instance_pages(self):
+        return self.site.pages

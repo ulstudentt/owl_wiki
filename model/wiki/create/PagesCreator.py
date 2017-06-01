@@ -9,7 +9,7 @@ class PagesCreator:
 
     def __init__(self, wiki_site, properties, onto, max_count):
         self.__site = wiki_site
-        self.properties = properties
+        self.__properties = properties
         self.__onto = onto
         self.max_instances_count = max_count
 
@@ -19,26 +19,25 @@ class PagesCreator:
 
     def __create_page(self, instance):
         page = self.__site.pages[instance.name]
-        self.__add_page_to_categories(page, instance)
-        if not page.exists:
-            page.save(page.text())
+        text = self.__add_infoblock_and_categories(page, instance)
+        page.save(text)
 
-    def __add_page_to_categories(self, page, instance):
+    def __add_infoblock_and_categories(self, page, instance):
         text = page.text()
         for parent in instance.is_a:
             parent_category_text = "[[Category:" + parent.name + "]]"
-            if parent_category_text not in page.text():
+            if parent_category_text not in text:
                 text += parent_category_text
 
-        text = self.__get_text_with_infoblock(page.text(), instance)
-        page.save(text)
+        text = self.__get_infoblock_text(text, instance) + text
+        return text
 
-    def __get_text_with_infoblock(self, text, instance):
+    def __get_infoblock_text(self, text, instance):
         all_classes_for_properties = self.__get_all_parents_names(instance)
         properties = []
         for class_name in all_classes_for_properties:
-            if class_name.lower() in self.properties:
-                for property in self.properties[class_name.lower()]:
+            if class_name.lower() in self.__properties:
+                for property in self.__properties[class_name.lower()]:
                     properties.append(property)
 
         template_editor = TemplateEditor(text)
@@ -72,7 +71,10 @@ class PagesCreator:
         if search_res is not None:
             tuple_res = search_res.regs[0]
             text = re.sub(text[tuple_res[0]:tuple_res[1]], ' ', text)
-        return template_editor.wikitext() + text
+
+        if not template_editor.templates[self.infobox_text][0].parameters:
+            return ""
+        return template_editor.wikitext()
 
     def __get_all_parents_names(self, instance):
         parent_classes_names = []
