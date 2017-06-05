@@ -9,13 +9,15 @@ from model.wiki.create.WikiCreator import WikiCreator
 from model.wiki.parse.WikiParser import WikiParser
 
 
+# Главный скрипт
+# Точка входа
+
 def take_param_val(str):
     return str.split('=')[1]
 
 
 # onto = get_ontology("http://protege.stanford.edu/ontologies/pizza/pizza.owl")
-# onto = get_ontology("http://files.ifi.uzh.ch/ddis/oldweb/ddis/fileadmin/ont/nli/job.owl")
-# onto = get_ontology("http://files.ifi.uzh.ch/ddis/oldweb/ddis/fileadmin/ont/nli/restaurant.owl")
+
 print("Работа началась")
 parser = argparse.ArgumentParser(description='Taking parameters')
 parser.add_argument('create')
@@ -28,7 +30,7 @@ parser.add_argument('postfix')
 args = parser.parse_args()
 print("Аргументы получены")
 create = take_param_val(args.create.upper())
-max_count_pages_for_category = 100
+max_count_pages_for_category = 3
 
 
 def create_ontology(path):
@@ -54,7 +56,7 @@ if create == 'TRUE':
     ontoProperties = ontologyParser.get_properties(onto)
     wikiCreator = WikiCreator(ontoProperties, max_count_pages_for_category, wikiConnector)
     wikiCreator.create_wiki_pages(onto)
-    sys.exit("Generating successful")
+    sys.exit("Генерация успешна")
 elif create == 'FALSE':
     print("Создание онтологии началось")
     onto = create_ontology("http://localhost/root-ontology.owl")
@@ -62,6 +64,5 @@ elif create == 'FALSE':
     ontologyCreator = OntologyCreator(onto, "My")
     ontologyCreator.create_owl_classes(wikiParser.get_category_pages())
     ontologyCreator.create_owl_instances(list(wikiParser.get_instance_pages()))
-    # myowl.owl
     onto.save(take_param_val(args.dest_owl), format="rdfxml")
-    sys.exit("Creating owl successful")
+    sys.exit("Создание owl успешно")

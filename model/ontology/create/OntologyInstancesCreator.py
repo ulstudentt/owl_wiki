@@ -1,11 +1,14 @@
 import re
 
-from owlready2 import Thing, ObjectProperty
+from owlready2 import Thing
 
 from model.ontology.create.ParsedPropertyModel import ParsedPropertyModel
 
 
 class OntologyInstancesCreator:
+    """"
+    Класс отвечающий за создание классов, объектов и заполнения их свойств
+    """
     __category_wiki_text = "Category:"
     __infobox_wiki_text = "{{Infobox"
     __label = "label"
@@ -22,6 +25,8 @@ class OntologyInstancesCreator:
         for wiki_page in wiki_pages:
             self.__get_category_names_from_page(wiki_page)
 
+    # получает класс из словаря уже созданных классов,
+    # создает  объект класса, после этого вызывает создание и заполнение свойств объекта
     def __get_category_names_from_page(self, wiki_page):
         text = wiki_page.text()
         search_res = re.findall('\[\[' + self.__category_wiki_text + '(.*?)\]\]', text)
@@ -38,16 +43,17 @@ class OntologyInstancesCreator:
     def __put_class(self, created_class):
         self.__created_classes_name_to_owl_classes[created_class.name] = created_class
 
+    # метод создания класса налседующегося от owl.Thing
     def __create_root_owl_class(self, class_name):
         new_class = type(self.__classes_prefix + class_name, (Thing,), {'namespace': self.__onto})
         self.__put_class(new_class)
         return new_class
 
+    # метод создания свойства и доабвление его значения объекту
     def __add_properties_to_instance_and_class(self, instance, owl_class, page_text):
         if self.__infobox_wiki_text not in page_text:
             return
 
-        # page_text = "{{Infobox | label1= dasd | data1=adsd| label2= dasd | data2=adsd}}"
         parameter_number_with_model = {}
         search_res = re.search(self.__infobox_wiki_text + '(.*?)}}', page_text)
         if search_res is not None:
@@ -87,6 +93,7 @@ class OntologyInstancesCreator:
                     getattr(instance, property_model.get_label()).append(
                         property_model.get_value())
 
+    # добавление в словарь свойств экземпляра значения свойства
     def __add_property_value(self, key, value, parameter_number_with_model, owl_class):
         property_model = ParsedPropertyModel()
         try:
@@ -117,6 +124,7 @@ class OntologyInstancesCreator:
 
         parameter_number_with_model[key] = property_model
 
+    # добавление в словарь свойств экземпляра названия свойства
     def __add_property_label(self, key, label, parameter_number_with_model):
         try:
             parameter_number_with_model[key]

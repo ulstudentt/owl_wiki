@@ -2,7 +2,16 @@ from model.wiki.create.PagesCreator import PagesCreator
 
 
 class CategoryCreator:
-    def __init__(self, wiki_site, properties, onto,max_category_page):
+    """"
+    Класс, отвечающий за создание категорий wiki ресурса
+
+    create_categories(owl_classes) - принимает на вход все классы онтологии
+
+    Конструктор принимает на вход свойства онтологии, онтологию,
+    максимальное количетсво страниц для категории
+    """
+
+    def __init__(self, wiki_site, properties, onto, max_category_page):
         self.__site = wiki_site
         self.__pages_creator = PagesCreator(self.__site, properties, onto, max_category_page)
 

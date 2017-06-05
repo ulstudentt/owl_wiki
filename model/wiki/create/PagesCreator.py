@@ -4,6 +4,14 @@ from mwtemplates import TemplateEditor
 
 
 class PagesCreator:
+    """"
+    Класс, отвечающий за создание страниц wiki ресурса.
+    Так же генерирует infobox для каждой страницы если есть свойства.
+
+    Вызывается из CategoryCreator
+
+    create_pages() принимает на вход все объекты класса
+    """
     infobox_text = "Infobox"
     infobox_template_text = "{{Infobox }}"
 

@@ -1,7 +1,16 @@
-from owlready2 import ObjectProperty, DataProperty, Thing
+from owlready2 import ObjectProperty, DataProperty
 
 
 class ParsedPropertyModel:
+    """"
+    Класс модель для генерации свойства
+    :label - имя свойства
+    :value - значение
+    :is_class_property - простое или имеет Range
+    :range - тип свойства
+    :class_with_property - класс, которому принадлежит свойство
+    """
+
     def __init__(self, label=None, value=None, is_class_property=False, range=None, class_with_property=None):
         self.__label = label
         self.__value = value
@@ -44,8 +53,6 @@ class ParsedPropertyModel:
                     {'namespace': onto, 'range': [self.get_range()], 'domain': [self.get_class_with_property()]})
 
     def create_property_string(self, onto):
-        if self.get_class_with_property() is Thing:
-            a = 2
         return type(self.get_label(), (DataProperty,),
                     {'namespace': onto, 'range': [str], 'domain': [self.get_class_with_property()]})
 

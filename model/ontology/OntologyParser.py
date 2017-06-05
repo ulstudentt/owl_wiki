@@ -1,4 +1,13 @@
 class OntologyParser:
+    """
+    Используется для извлечения свойств из онтологии
+
+    get_properties() - получает на вход онтологию,
+    возвращает словарь
+    :key - название класса
+    :value - список свойств для класса
+    """
+
     def get_properties(self, onto):
         classes_to_properties = {}
 

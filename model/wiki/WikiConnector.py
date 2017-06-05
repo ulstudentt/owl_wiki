@@ -2,9 +2,13 @@ import mwclient
 
 
 class WikiConnector:
-    """site = "localhost"
-    username = "Murakami"
-    password = "190180RT"""
+    """
+    Класс отвечающий за соединение с wiki ресурсом.
+
+    конструктор принимает логин, пароль, адрес сайта и постфикс до wiki самого wiki ресурса
+
+    get_logged_site() - вызывается для получения экземпляра wiki ресурса готово к работе
+    """
 
     def __init__(self, login, password, server, postfix):
         self.login = login

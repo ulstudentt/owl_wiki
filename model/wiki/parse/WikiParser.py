@@ -2,6 +2,15 @@ import re
 
 
 class WikiParser:
+    """
+    Класс, предоставляющий информацию из mediaWiki.
+
+    get_category_pages() - возвращает словарь категорий
+    :key - имя категории
+    :item - имена родительских категорий
+
+    get_instance_pages() - возвращает список страниц mediaWiki
+    """
     category_text = "Category:"
 
     def __init__(self, wiki_connector):
